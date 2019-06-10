@@ -1,0 +1,44 @@
+h1 {
+    color: rgba(30, 121, 224, 0.767);
+}
+
+h3{
+    color: rgba(250, 129, 49, 0.89);
+}
+
+.error{
+    border: 1px solid red;
+}
+
+
+li:hover {
+    border: 1px solid yellow;
+}
+
+.myItem{
+    margin: 2.5px 1px 0 0;
+    text-align: justify;
+
+}
+
+#btnSave {
+    position: absolute;
+   
+}
+
+.myInput{
+    width: 250px;
+    height: 31px;
+}
+
+.btn-done{
+    float:right;
+}
+
+.todo-container{
+    margin-top: 25px;
+}
+
+.done-container{
+    margin-top: 45px;
+}
