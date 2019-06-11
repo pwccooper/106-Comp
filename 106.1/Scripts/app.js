@@ -108,7 +108,7 @@ function displayTodo(simpleText, id) {
 
 var ul = $("#todoList");
 
-var li = "<li id='"+ id +"' class='list-group-item'>"  + simpleText + "<button class='btn-danger btn-sm btn-info pull-right btn-done onclick=markDone("+ id +");'> Done! </button></li>"
+var li = "<li id='"+ id +"' class='list-group-item'>"  + simpleText + "<button class='btn-danger btn-sm btn-info pull-right btn-done' onclick=markDone("+ id +");> Done! </button></li>"
 
 ul.append(li);
 
