@@ -93,7 +93,12 @@ function getDataFromServer() {
                 if (item.user == "Paul") {
                     todoList.push(item);
                     console.log(item);
-                    displayTodo(item.text, item.id);
+                if (item.status == 0){
+                   displayTodo(item.text, item.id); 
+                }
+                else{displayDone (item.text, item.id);
+                }
+                    
                 }
             }
         },
